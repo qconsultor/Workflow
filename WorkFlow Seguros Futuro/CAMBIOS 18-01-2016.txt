@@ -1,0 +1,120 @@
+using Microsoft.Office.Interop.Word;
+using System.Runtime.InteropServices;
+using Microsoft.Office.Interop.Excel;
+
+
+if (Path.GetExtension(FileUpload.FileName)==".xls" )
+            {
+            convertirexcel();
+             }
+            
+            else if (Path.GetExtension(FileUpload.FileName)==".xlsx" )
+            
+            {
+                convertirexcel();
+            }
+
+            else
+            {
+          convertirword();
+
+            }
+
+
+ public Microsoft.Office.Interop.Word.Document wordDocument { get; set; }
+
+
+ private void convertirword() {
+
+          Microsoft.Office.Interop.Word.Application wordApp = new Microsoft.Office.Interop.Word.Application();
+
+          wordApp.Visible = false;
+
+  
+          object filename = @"C:\Users\lemus\Desktop\Guardar y Leer Imágenes\Guardar y Leer Imágenes (SQL Server - Asp.Net (C Sharp)\Images (SQL Server - Asp)\files\" + FileUpload.FileName; // input
+
+          object newFileName = Server.MapPath("~/files/" + Path.GetFileNameWithoutExtension(FileUpload.FileName) + ".pdf"); // output
+          object missing = System.Type.Missing;
+
+          Microsoft.Office.Interop.Word.Document doc = wordApp.Documents.Open(ref filename, ref missing, ref missing, ref missing, ref missing, ref missing,
+                         ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing,
+                         ref missing, ref missing, ref missing);
+
+          object formatoArquivo = Microsoft.Office.Interop.Word.WdSaveFormat.wdFormatPDF;
+
+         
+
+         
+          doc.SaveAs(ref newFileName, ref formatoArquivo, ref missing, ref missing, ref missing, ref missing, ref missing,
+                         ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing);
+
+          doc.Close(ref missing, ref missing, ref missing);
+
+          wordApp.Quit(ref missing, ref missing, ref missing);   
+        
+        } 
+
+         private void convertirexcel()
+        {
+
+            Microsoft.Office.Interop.Excel.Application word = new Microsoft.Office.Interop.Excel.Application();
+            Workbook excelWorkBook = null;
+
+
+            string paramSourceBookPath = @"C:\Users\lemus\Desktop\Guardar y Leer Imágenes\Guardar y Leer Imágenes (SQL Server - Asp.Net (C Sharp)\Images (SQL Server - Asp)\files\"+ FileUpload.FileName;
+            object paramMissing = Type.Missing;
+
+            string paramExportFilePath = Server.MapPath("~/files/" + Path.GetFileNameWithoutExtension(FileUpload.FileName) + ".pdf"); 
+            XlFixedFormatType paramExportFormat = XlFixedFormatType.xlTypePDF;
+            XlFixedFormatQuality paramExportQuality =
+                XlFixedFormatQuality.xlQualityStandard;
+            bool paramOpenAfterPublish = false;
+            bool paramIncludeDocProps = true;
+            bool paramIgnorePrintAreas = true;
+            object paramFromPage = Type.Missing;
+            object paramToPage = Type.Missing;
+
+
+            try
+            {
+               
+                excelWorkBook = word.Workbooks.Open(paramSourceBookPath,
+                    paramMissing, paramMissing, paramMissing, paramMissing,
+                    paramMissing, paramMissing, paramMissing, paramMissing,
+                    paramMissing, paramMissing, paramMissing, paramMissing,
+                    paramMissing, paramMissing);
+
+                
+                if (excelWorkBook != null)
+                    excelWorkBook.ExportAsFixedFormat(paramExportFormat,
+                        paramExportFilePath, paramExportQuality,
+                        paramIncludeDocProps, paramIgnorePrintAreas, paramFromPage,
+                        paramToPage, paramOpenAfterPublish,
+                        paramMissing);
+            }
+            catch (Exception ex)
+            {
+                // agregar mensaje de error 
+            }
+            finally
+            {
+               
+                if (excelWorkBook != null)
+                {
+                    excelWorkBook.Close(false, paramMissing, paramMissing);
+                    excelWorkBook = null;
+                }
+
+                
+                if (word != null)
+                {
+                    word.Quit();
+                    word = null;
+                }
+
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+            }  
+        }

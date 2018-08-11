@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SF_WF" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=RAUL\SQLEXPRESS;Initial Catalog=SF_WF;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SF_WFConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.wf_seguimiento_95" Member="wf_seguimiento_95">
+    <Type Name="wf_seguimiento_95">
+      <Column Name="fecha" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="correlativo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cooperativa" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="identificacion" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="plan_" Type="System.String" DbType="NVarChar(140)" CanBeNull="true" />
+      <Column Name="tipodepoliza" Type="System.String" DbType="NVarChar(83)" CanBeNull="true" />
+      <Column Name="asegurado" Type="System.String" DbType="Char(254)" CanBeNull="true" />
+      <Column Name="observaciones" Type="System.String" DbType="Text" CanBeNull="true" />
+      <Column Name="cantidadsolicitudes" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="fecha_destino" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="indicador" Type="System.String" DbType="Char(42)" CanBeNull="true" />
+      <Column Name="indicado" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="area" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ingresado" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="codigo_tipo_wf" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tipo_wf" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="f_analisis" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_docompleta" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_emision" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_e_firmas" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_r_firmas" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_ate_cliente" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_reci_atc" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="c_atc" Type="System.String" DbType="Text" CanBeNull="true" />
+      <Column Name="f_ent_cam" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="f_rec_cliente" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="indica_atc" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="timestamp_column" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Column Name="adjunto" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="imagen" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" />
+      <Column Name="tsolicitud" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sus_atec" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="entrego" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="poliza" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="tipodoc" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="solic" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="solicAT" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="cod_coop" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="p_codigo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="cod_operacion" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="cod_area" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="dias_atec" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Puntos" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="asignado" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="en_re_at" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ref_en_re_at" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="f_desti" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="estado_indicador" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="estado_tiempo" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="f_reci_atec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="descrip_at" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="obser_corres" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="estado_envio" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="generado_mod" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="dui" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="hora_r" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Column Name="hora_e" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Column Name="obser_suspen" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="f_doc_f" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="c_atec" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ges_atcl" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="f_gest" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_doc_c" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_recb_at" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_n_resol" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="observa_atclie" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="fec_firma" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_hallaz" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_resolusion" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="f_auditado" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fec_entr_aten_cli_atec" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="requisito" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="requisito_cod" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="causa" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="causa_cod" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="planes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="planes_cod" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="nplaca" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="che_envio" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="che_recibido" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

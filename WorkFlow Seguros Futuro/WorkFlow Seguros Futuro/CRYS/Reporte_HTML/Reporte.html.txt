@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title><style>
+        .pdfContainer 
+        {
+            position:absolute;
+            height:100%;
+            width:100%;
+            overflow: hidden;
+        }
+
+        .pdfContainer iframe 
+        {
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="pdfContainer">
+        <iframe src="../Archivos/Informe_sondeo_asistencia2.pdf" />
+    </div>
+</body>
+</html>
+

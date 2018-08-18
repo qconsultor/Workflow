@@ -187,3 +187,53 @@ C:\Users\raul\Documents\Visual Studio 2012\Projects\WorkFlow Seguros Futuro\Work
 C:\Users\raul\Documents\Visual Studio 2012\Projects\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\RdlCompile.compiled
 C:\Users\raul\Documents\Visual Studio 2012\Projects\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow_Seguros_Futuro.Reportes.Entrega_ATecnica.resources
 C:\Users\raul\Documents\Visual Studio 2012\Projects\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow Seguros Futuro.csproj.GenerateResource.Cache
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\WorkFlow Seguros Futuro.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\WorkFlow Seguros Futuro.pdb
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Antlr3.Runtime.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\AspNet.ScriptManager.jQuery.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.AspNet.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.Core.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OAuth.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OpenId.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\EntityFramework.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Ext.Net.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Ext.Net.Utilities.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\iTextSharp.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Microsoft.ScriptManager.WebForms.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Microsoft.Web.Infrastructure.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Newtonsoft.Json.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\System.Web.Optimization.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\System.Web.Providers.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Transformer.NET.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\WebActivatorEx.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\WebGrease.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Ext.Net.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Ext.Net.Utilities.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Newtonsoft.Json.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\EntityFramework.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.Core.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OAuth.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OpenId.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\DotNetOpenAuth.AspNet.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\Transformer.NET.xml
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\es\EntityFramework.resources.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\es\System.Web.Optimization.resources.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\es\System.Web.Providers.resources.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow Seguros Futuro.csprojResolveAssemblyReference.cache
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\Interop.MSDATASRC.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow Seguros Futuro.csproj.ResolveComReference.cache
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow_Seguros_Futuro.Reportes.Entrega_ATecnica.resources
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow Seguros Futuro.csproj.GenerateResource.Cache
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\RdlCompile.cache
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\RdlCompile.compiled
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow Seguros Futuro.dll
+C:\ProyectoGIT\Workflow\WorkFlow Seguros Futuro\WorkFlow Seguros Futuro\obj\Debug\WorkFlow Seguros Futuro.pdb

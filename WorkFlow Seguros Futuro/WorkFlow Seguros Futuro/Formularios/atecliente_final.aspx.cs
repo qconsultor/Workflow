@@ -23,9 +23,6 @@ namespace WorkFlow_Seguros_Futuro.Formularios
         }
         protected void CargarArea()
         {
-
-
-
             string connectionString = ConfigurationManager.ConnectionStrings["SIA_ConnectionString"].ConnectionString;
             string str = "select * from area";
 
